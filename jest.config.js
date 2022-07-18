@@ -1,4 +1,4 @@
-{
+module.exports = {
     /*
      * For a detailed explanation regarding each configuration property and type check, visit:
      * https://jestjs.io/docs/configuration
@@ -13,16 +13,16 @@
     // cacheDirectory: "/private/var/folders/km/6r_315bx4kl9dm0c9_c0qfz00000gn/T/jest_dx",
 
     // Automatically clear mock calls, instances, contexts and results before every test
-    "clearMocks": true,
+    clearMocks: true,
 
     // Indicates whether the coverage information should be collected while executing the test
-    "collectCoverage": true,
+    collectCoverage: true,
 
     // An array of glob patterns indicating a set of files for which coverage information should be collected
     // collectCoverageFrom: undefined,
 
     // The directory where Jest should output its coverage files
-    coverageDirectory: 'coverage',
+    coverageDirectory: '../coverage',
 
     // An array of regexp pattern strings used to skip coverage collection
     // coveragePathIgnorePatterns: [
@@ -191,4 +191,4 @@
 
     // Whether to use watchman for file crawling
     // watchman: true,
-}
+};

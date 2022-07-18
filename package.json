@@ -4,8 +4,8 @@
   "description": "",
   "private": true,
   "scripts": {
-    "start": "ts-node src",
-    "build": "webpack --mode development --watch",
+    "start": "ts-node src/index.ts",
+    "build": "webpack --watch",
     "test": "jest",
     "prepare": "husky install"
   },
